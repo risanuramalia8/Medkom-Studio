@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, Play, Pause, Sparkles, ArrowRight, Image as ImageIcon } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Play, Pause, ArrowRight, Image as ImageIcon } from 'lucide-react';
 import { HeroSlide } from '../types/database';
 
 interface HeroSliderProps {
@@ -155,8 +155,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({
           {/* 2 Components: Badge and Slide Info Card */}
           <div className="hidden sm:flex flex-col items-end gap-1.5 text-right">
             {currentSlide.badge && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-teal-400 text-slate-950 shadow-md">
-                <Sparkles className="w-3 h-3" />
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-teal-400 text-slate-950 shadow-md">
                 <span>{currentSlide.badge}</span>
               </span>
             )}
@@ -264,8 +263,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({
 
               <div className="absolute top-4 left-4 right-4 flex items-center justify-between z-20">
                 {slide.badge && (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase bg-teal-500 text-slate-950 shadow-md">
-                    <Sparkles className="w-3.5 h-3.5" />
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase bg-teal-500 text-slate-950 shadow-md">
                     <span>{slide.badge}</span>
                   </span>
                 )}

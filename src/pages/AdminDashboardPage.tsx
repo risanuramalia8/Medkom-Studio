@@ -14,7 +14,7 @@ import {
   HardDrive,
   Box,
   BarChart3,
-  Sparkles,
+  Heart,
   Search,
   Filter,
   Layers,
@@ -686,7 +686,7 @@ export const AdminDashboardPage: React.FC<AdminDashboardProps> = ({
               <div className="p-5 rounded-2xl bg-slate-800/60 border border-slate-700/80 shadow-md">
                 <div className="flex items-center justify-between text-slate-400 mb-2">
                   <span className="text-xs font-semibold uppercase tracking-wider">Total Apresiasi & Unduhan</span>
-                  <Sparkles className="w-4 h-4 text-teal-400" />
+                  <Heart className="w-4 h-4 text-teal-400" />
                 </div>
                 <p className="text-3xl font-extrabold text-white font-mono">{repoStats.totalDownloads + repoStats.totalAppreciations}</p>
                 <div className="mt-2 text-xs text-teal-400 font-medium">

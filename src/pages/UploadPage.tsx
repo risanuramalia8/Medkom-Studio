@@ -8,7 +8,7 @@ import {
   HelpCircle,
   Box,
   Monitor,
-  Sparkles,
+  Layers,
   ArrowRight,
   Send,
   Save,
@@ -653,7 +653,7 @@ export const UploadPage: React.FC<UploadPageProps> = ({
                       : 'border-slate-200 bg-slate-50/50 hover:bg-slate-100 text-slate-700'
                   }`}
                 >
-                  <Sparkles className="w-5 h-5 text-emerald-600 shrink-0" />
+                  <Layers className="w-5 h-5 text-emerald-600 shrink-0" />
                   <div>
                     <p className="text-sm font-bold">Digital & Fisik</p>
                     <p className="text-xs text-slate-500 font-normal">Tersedia keduanya</p>

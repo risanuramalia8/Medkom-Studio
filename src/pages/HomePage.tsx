@@ -5,7 +5,6 @@ import {
   Tv,
   Shapes,
   FolderPlus,
-  Sparkles,
   BookOpen,
   Dice5,
   Play,
@@ -236,7 +235,6 @@ export const HomePage: React.FC<HomePageProps> = ({
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-6 gap-2">
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-700 mb-1">
-              <Sparkles className="w-3.5 h-3.5" />
               <span>Kurasi Terbaik</span>
             </div>
             <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight">
@@ -315,7 +313,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               Punya Karya Media Komunikasi Kesehatan Gigi?
             </h3>
             <p className="text-sm sm:text-base text-teal-100 leading-relaxed">
-              Unggah karya poster, video, komik, maupun alat peraga fisik buatan Anda agar terdokumentasi rapi, dinilai dosen, dan dapat dimanfaatkan oleh adik tingkat serta masyarakat umum.
+              Unggah karya poster, video, komik, maupun alat peraga fisik buatan Anda agar terdokumentasi rapi dan dapat dimanfaatkan oleh adik tingkat serta masyarakat umum.
             </p>
             <div className="pt-2">
               <button

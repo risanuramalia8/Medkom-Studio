@@ -8,7 +8,6 @@ import {
   EyeOff,
   UserPlus,
   AlertCircle,
-  Sparkles,
   CheckCircle2,
   GraduationCap,
 } from 'lucide-react';

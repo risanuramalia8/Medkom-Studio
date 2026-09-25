@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, User as UserIcon, LogOut, ShieldAlert, Sparkles, PlusCircle } from 'lucide-react';
+import { Search, User as UserIcon, LogOut, ShieldAlert, PlusCircle } from 'lucide-react';
 import { User } from '../types/database';
 
 interface NavbarProps {
@@ -200,7 +200,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                       onClick={onOpenLogin}
                       className="w-full text-left px-4 py-2 text-xs text-slate-600 hover:bg-slate-50 flex items-center gap-2"
                     >
-                      <Sparkles className="w-4 h-4 text-slate-400" />
+                      <UserIcon className="w-4 h-4 text-slate-400" />
                       <span>Kelola Sesi Akun</span>
                     </button>
                     <button
