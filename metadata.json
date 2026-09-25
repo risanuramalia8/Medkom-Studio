@@ -1,0 +1,6 @@
+{
+  "name": "MEDIKOM STUDIO - Ruang Karya Media Komunikasi Kesehatan Gigi",
+  "description": "Platform repository, galeri, dan showcase media komunikasi kesehatan karya mahasiswa Jurusan Kesehatan Gigi Poltekkes Kemenkes Palembang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
